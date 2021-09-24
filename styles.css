@@ -1,0 +1,26 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: cornflowerblue;
+}
+#main-container {
+    margin: auto;
+    text-align: center;
+}
+button {
+    font-family: 'Noto Sans', sans-serif;
+    min-height: 30px;
+    min-width: 30px;
+}
+.delete-btn{
+    background: url("image/x-btn.svg") no-repeat;
+    background-size: cover;
+}
+#task-list{
+    list-style-type: none;
+}
+#footer {
+    font-size: 11px;
+    position: absolute;
+    bottom: 1px;
+    left: 2px;
+}

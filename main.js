@@ -7,7 +7,6 @@ function addTask() {
     let taskName = getTaskName("input-task");
     if (taskName !== "") {
         let taskList = document.getElementById("task-list");
-        console.log(taskList.innerHTML);
         taskList.innerHTML += '<li><input type="checkbox"><span class="task">' + taskName + '</span><button class="btn delete-btn"></button></li>'
         document.getElementById("input-task").value = "";
         addRemove();

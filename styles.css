@@ -19,6 +19,9 @@ button {
     list-style-type: none;
     margin-top: 12px;
 }
+ul > li {
+    padding: 3px;
+}
 #footer {
     font-size: 11px;
     position: absolute;
